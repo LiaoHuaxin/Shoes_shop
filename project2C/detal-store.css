@@ -1,0 +1,170 @@
+li{
+	padding:10px;
+}
+a{
+    color: #f5f5f6;
+    text-decoration: none;
+}
+ul{
+    margin: auto;
+    padding: inherit;
+    max-height: 100px;
+}
+p{
+	font-size: 2em;
+	margin-left: 10px;	
+}
+.container4{
+	margin:auto;
+	width: 80%;
+}
+.piccture_zone{
+	float: left;
+	width: 65%;
+	display: inline-block;
+}
+.text_zone{
+	float: right;
+	width: 32%;
+/*	background-color: green;
+*/}
+.picture{
+	height:100%;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.picture2{
+	width: 80px;
+	height: 80px;
+
+}
+.name{
+	margin-bottom: 3px;
+}
+.name2{
+	float: left;
+	width: 70%;
+}
+.price{
+	padding-top: 4%;
+	float:right;
+	width: 3%;
+	height: 260px;
+	text-align-last: right;
+}
+.container5{
+
+	float: left;
+	width: 100%;
+	margin-left:20px;
+}
+.container6{
+
+	float: left;
+	width: 100%;	
+	margin-left:15px;
+}
+.size{
+	margin-top: 10px;
+	margin-left: 2%;
+	width: 100%;
+}
+.size2{
+	float: left;
+	width: 30%;
+}
+.size3{
+	float: right;
+	white-space:nowrap;
+
+}
+.size4{
+	width: 100%;
+	margin-left: 1%;
+	background-color: blue;
+	height: 1px;
+}
+.size5{
+	margin-top: 8px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 0.2fr);
+	grid-gap: 4px;
+}
+.css-181a6of{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	outline:
+ 
+
+}
+.visually-hidden{
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	white-space: nowrap;
+	clip: rec(1 1 1 1);
+}
+.css-xf3ahq{
+	border-radius: 40px;
+    border:2px solid #bbb;
+    width: 50px;
+    text-align: center;
+}
+input[type="radio"] {
+	display: none;
+}
+input[type="radio"] + label {
+	display: inline-block;
+	background-color: #ffffff;
+	cursor: pointer;
+	padding: 20px 50px;
+}
+input[type="radio"]:checked + label {
+	background-color: #fdf949;
+	color: #fdf949;
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"] + label {
+    display: inline-block;
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 20px 50px;
+}
+input[type="checkbox"]:checked + label {
+    background-color: #fdf949;
+}
+.accc{
+	margin-top: 15px;
+	background-color: black;
+	width: 99.4%;
+	height: 80px;
+    margin-left: 1.5%;
+    border-radius: 60px;
+    border:2px solid #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.accc1{
+	margin-top: 15px;
+	background-color: white;
+	width: 99.4%;
+	height: 80px;
+    margin-left: 1.5%;
+    border-radius: 60px;
+    border:2px solid #000000;
+    cursor: pointer;
+}
+.con1{
+
+	color: #000000;
+}
+.con2{
+	margin-left: 14%;
+	cursor: pointer;
+}

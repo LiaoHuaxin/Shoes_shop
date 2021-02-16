@@ -1,0 +1,143 @@
+
+/*0000000000000000000000000000000000000*/
+.checkbtn{
+    display: block;
+    font-size: 65px;
+    color: #000000;
+    line-height: 80px;
+    margin:16px 0px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+#check2{
+    display: none;
+}
+#check{
+    display: none;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+body {
+    margin:auto 0;
+    font-family: Arial;
+}
+.zone{
+	cursor: pointer;
+	display: block;
+	color:#FFF;
+    font-size:2em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+    width: 100%;
+    background-color: rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.color{
+	background-color: #ffffff;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;	
+}
+.main-nav{
+    display: block;
+	list-style: none;
+	font-size: 0.7em;
+    margin: auto;
+    padding: inherit;
+    max-height: 100px;
+}
+.form{
+    float: left;
+    display: block;
+    height: 97px;
+}
+.menu{
+    float: right;
+    margin-right: 20px;
+    /*display: inline-block;*/
+}
+.sign_out_logo{
+    margin-top: 16px;
+    font-size: 20px;
+    margin-left: 26px;
+}
+.sign_out{
+    color: #000000;
+    float: right;
+    cursor: pointer;
+}
+
+.form2{
+    float: left;
+    color: #f5f5f6;
+    text-decoration: none;
+}
+/*當最大螢幕寬度超過600px  就執行...*/
+@media only screen and (max-width: 600px){
+		.main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+nav{
+    max-height: 20%;    
+}
+main{
+    /*background-color: blue;*/
+    width: 100%;
+    height: 150px;
+    margin-top: 127px;
+}
+/*位置*/
+.member1{
+    /* float: right; */
+    /* padding: 2%; */
+    margin-left: auto;
+    margin-top: 6px;
+    /* width: 6%; */
+}
+/*位置*/
+.cart1{
+    width: 46px;    
+}
+.space{
+    padding-top: 9%;
+    margin-top: 3%;
+}
+.nike2{
+    width: 61%;
+    height: 75%;
+    float: left;
+    padding: 4% 7%;
+}
+/*大小*/
+.member2{
+    float: right;
+    width: 65px;
+    margin-top: 9px;
+}
+.cart2{
+    float: right;
+    padding: -2px;
+    margin: 14px -14px;
+    width: 59px;
+}

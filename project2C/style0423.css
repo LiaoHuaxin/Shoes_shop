@@ -1,0 +1,100 @@
+
+.img1{
+	max-width:90% ;
+	max-height:20%;
+	display: block;
+	margin:auto 
+}
+
+a{	
+    color: #111;
+    cursor: pointer;
+    text-decoration: none;
+}
+li{
+	margin: 0;
+    padding-left: 5px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block;
+}
+h1 {
+	padding-left:6.5%;
+	cursor: pointer;
+}
+
+.nike{
+	width: 150px;
+	height: 50px;
+	padding-left: 30px;
+	padding-top: 20px;
+	float: left;
+}
+.cart{
+	width: 50px;
+	height: 50px;
+	padding-top: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	float: right;
+}
+.container{
+	overflow: hidden;
+}
+.member{
+	width: 50px;
+	height: 50px;
+	padding-top: 20px;
+	display: inline-block;
+	float: right;
+}
+.clothes{
+	padding-left: 20px;
+}
+.shoes{
+	padding-left: 30px;
+
+}
+.suggest{
+	padding-left: 20px;
+}
+.container2{
+	font-size: 30px;
+	margin-left: -1%;
+}
+li {
+	cursor: pointer;
+}
+.img2{
+	width: 90%;
+	height:100%;
+	padding-left:45px;
+	height: 35PC;
+}
+.container3{
+
+}
+.BOX1{
+	float: left;
+	width: 33%;
+	display: inline-block;
+}
+.BOX2{
+	float: center; 
+	width: 33%;
+	display: inline-block;
+}
+.BOX3{
+	float: right;
+	width: 33%;
+	display: inline-block;
+}
+h3{
+    font-size: 0.8em;
+    margin-left: 4%;  
+}
+h4{
+	padding-left: 8%;
+}
